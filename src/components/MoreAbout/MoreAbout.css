@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+/*responsive*/
+
+
+
+/* موبایل‌های کوچک */
+@media  (max-width: 480px) {
+  .parent_more_about_main{
+    flex-direction: column;
+   }
+   .more_about_main_left {
+    width: 180px !important;
+   }
+   .more_about_main_right_iamge{
+    width: 246px !important;
+    height: 215px !important;
+   }
+}
+
+/* تبلت‌ها */
+@media (min-width: 481px) and (max-width: 768px) {
+  .parent_more_about_main{
+    flex-direction: column;
+   }
+   .more_about_main_left {
+    width: 210px !important;
+   }
+}
+
+/* دسکتاپ‌های کوچک */
+@media (min-width: 769px) and (max-width: 1024px) {
+ .parent_more_about_main{
+  flex-direction: column;
+ }
+ .more_about_main_left_text {
+  text-align: center !important;
+ }
+}
+
+/* دسکتاپ‌های بزرگ */
+@media (min-width: 1025px) {
+   .more_about_main_left {
+    width: 258px !important;
+   }
+}
+
+@media screen and (min-width:1200px) {
+  
+}
+
+
+
+
+
+.more_about{
+ margin-top: 150px;
+}
+
+.more_about_header{
+  color: #323232;
+}
+.parent_more_about_main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 100px;
+     margin-top: 30px;
+}
+.more_about_main_left{
+  width: 300px;
+}
+.more_about_main_left_text{
+   text-align: start;
+   color: #2F2F2F;
+}
+
+.more_about_main_right_iamge{
+  width: 500px;
+  height: 320px;
+}

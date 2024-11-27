@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+/*responsive*/
+
+
+
+/* موبایل‌های کوچک */
+@media  (max-width: 480px) {
+    .Login_form{
+        width: 245px !important;
+        height: 313px !important;
+    }
+    .Login_backtoHome_btn {
+        top: -39px !important;
+        right: 29px !important;
+        padding: 1px 8px !important;
+    }
+    .Login_input_username ,.Login_input_password{
+        height: 34px !important;
+    }
+}
+
+/* تبلت‌ها */
+@media (min-width: 481px) and (max-width: 768px) {
+ .Login_form{
+    width: 347px !important;
+    height: 362px !important;
+ }
+ .Login_backtoHome_btn{
+    top: -43px !important;
+    right: 48px !important;
+    padding: 2px 9px !important;
+ }
+}
+
+/* دسکتاپ‌های کوچک */
+@media (min-width: 769px) and (max-width: 1024px) {
+ 
+}
+
+/* دسکتاپ‌های بزرگ */
+@media (min-width: 1025px) {
+  
+}
+
+@media screen and (min-width:1200px) {
+  
+}
+
+.Login{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+}
+.Login .link:hover{
+    color: red;
+}
+.parent_Login{
+    position: relative;
+}
+
+.Login_backtoHome_btn{
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    border: 1px solid #00B997;
+    padding: 5px 13px;
+    border-radius: 5px;
+    background-color: #00B997;
+    color: #ffff;
+}
+
+
+.Login_form{
+   border: 1px solid gray;
+   border-radius: 6px;
+   width: 500px;
+   height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 60px;
+}
+.Login_input_username{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 50px;
+  padding-left: 20px;
+  
+}
+.Login_input_password{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 50px ;
+    padding-left: 20px;
+    
+}
+.Login_btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #00B997;
+    border-radius: 5px;
+}

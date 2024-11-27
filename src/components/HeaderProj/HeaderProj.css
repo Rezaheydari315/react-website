@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+/*responsive*/
+
+
+
+/* موبایل‌های کوچک */
+@media  (max-width: 480px) {
+    .Header_top_image{
+        display: none;
+       }
+       .Header_top_left_span{
+        display: none;
+       }
+       
+
+}
+
+/* تبلت‌ها */
+@media (min-width: 481px) and (max-width: 768px) {
+   .Header_top_image{
+    display: none;
+   }
+   .Header_top_left_span{
+    display: none;
+   }
+}
+
+/* دسکتاپ‌های کوچک */
+@media (min-width: 769px) and (max-width: 1024px) {
+ 
+}
+
+/* دسکتاپ‌های بزرگ */
+@media (min-width: 1025px) {
+   
+}
+
+@media screen and (min-width:1200px) {
+  
+}
+
+
+
+
+
+
+
+
+/*header */
+
+.Header{
+  
+  min-height: 500px;
+ padding-top: 10px;
+ padding-left: 40px;
+ padding-right: 40px;
+ position: relative;
+ 
+ background: linear-gradient(rgba(59 ,53 ,55,0.6) ,rgba(59 ,53,55,0.6)) ,url('/Image/background_header.jpeg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+
+
+
+/*Header_top */
+
+.Header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Header_top .link:hover{
+  color: red;
+}
+.Header_top_left{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.parent_Header_top_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Header_top_image{
+ width: inherit;
+ height: inherit;
+ width: 40px;
+ height: 40px;
+}
+.Header_top_left_span{
+  color: #FFFFFF;
+ 
+}
+.parent_Header_top_left_span{
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header_top_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+.Header_top_right_btn_starts{
+    padding: 9px 18px;
+   background-color: #00B997;
+   color: #FFFFFF;
+   border-radius: 5px;
+   text-decoration: none;
+}
+.Header_top_right_login{
+ background: inherit;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+
+/*Header_main */
+.Header_main{
+    margin-top: 50px; 
+    
+}
+.Header_top_left_span {
+    padding-top: 5px;
+}
+.Header_main_image{
+   width: 100px;
+   height: 100px;
+   margin-bottom: 0;
+   object-fit: cover;
+}
+.Header_main_mark{
+margin-top: -40px;
+color: #00D8B1;
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 18px;
+}
+
+.Header_main_desc_top{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Header_main_desc_margin{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.Header_main_btn{
+    background-color: #00B997;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.parent_Header_main_icon{
+   position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #797979;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header_main_icon{
+ color: #FFFFFF;
+ width: 20px;
+ height: 20px;
+}
+body h2 {
+    font-size: 28px !important;
+}
