@@ -10,7 +10,7 @@ function Footer() {
             <div className='Footer'>
                 <Container>
                    <div className='parent_Footer'>
-                   <img src="/Image/Footer.png" alt="" className='Footer_image' />
+                   <img src="/react-website/Image/Footer.png" alt="" className='Footer_image' />
                       <p className='Footer_title'>Beema</p>
                     <h2 className='Footer_description'>
                         Just say the magical word

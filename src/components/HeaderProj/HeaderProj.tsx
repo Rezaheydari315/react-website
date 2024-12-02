@@ -20,7 +20,7 @@ function HeaderProj() {
           <div className='Header_top_left'>
 
 
-            <img src="/Image/logo_header.png" alt="" className='Header_top_image' />
+            <img src="/react-website/Image/logo_header.png" alt="" className='Header_top_image' />
 
 
             <div className='parent_Header_top_left_span'>
@@ -37,7 +37,7 @@ function HeaderProj() {
         </div>
 
         <div className='Header_main'>
-          <img src="/Image/logo_header.png" alt="" className='Header_main_image' />
+          <img src="/react-website/Image/logo_header.png" alt="" className='Header_main_image' />
           <p className='Header_main_mark'>Beema</p>
           <div className='Header_main_desc'>
             <p className='Header_main_desc_top'>Software Development</p>

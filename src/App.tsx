@@ -3,7 +3,7 @@ import { Home } from './components/Home/Home.tsx'
 import  Login  from './components/Login/Login'
 import {Product} from './components/Product/Product.tsx'
 
-import {Routes ,Route} from 'react-router-dom'
+import { Routes ,Route } from 'react-router-dom'
 
 
 
@@ -19,9 +19,8 @@ function App() {
     <>
     <div> 
      
-  
-     
     <Routes>
+      <Route path='/' element={ <Home></Home>}></Route>
       <Route path='/Home' element={ <Home></Home>}></Route>
       <Route path='/Login' element={<Login></Login> }> </Route>
       <Route path='/Product' element={ <Product></Product> }> </Route>
